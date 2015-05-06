@@ -3,9 +3,9 @@
 ## Differences in this fork
 
 - Added a `.gitignore` file. Notably, nothing in the *build* folder is committed except for `index.html`.
-- `index.html` does not have a `<link>` element to import `index.css`. (NOT SURE WHY ANYMORE)
+- `index.html` does not have a `<link>` element to import `index.css`, because the style is added inline by the *style* webpack loader.
 - Updated `package.json`, includes modules to load LESS styling and RiotJS modules through Webpack.
-- Includes the file `riot-loader-readme.md` (MISTAKE?)
+- Includes the file `riot-loader-readme.md` (for quick reference).
 - `src/index.js` loads the `todo-app.tag` file rather than `tags.js`.
 - A *style* folder has been added to place any LESS file required.
 - A *tags* folder has been added to place any RiotJS tags.
