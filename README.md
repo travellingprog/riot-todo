@@ -1,4 +1,18 @@
-# Flux-like Riot Todo Application
+# Flux-like Riot Todo Application - travellingprog's fork
+
+## Differences in this fork
+
+- Added a `.gitignore` file. Notably, nothing in the *build* folder is committed except for `index.html`.
+- `index.html` does not have a `<link>` element to import `index.css`. (NOT SURE WHY ANYMORE)
+- Updated `package.json`, includes modules to load LESS styling and RiotJS modules through Webpack.
+- Includes the file `riot-loader-readme.md` (MISTAKE?)
+- `src/index.js` loads the `todo-app.tag` file rather than `tags.js`.
+- A *style* folder has been added to place any LESS file required.
+- A *tags* folder has been added to place any RiotJS tags.
+- `webpack.config.js` has been modified to load RiotJS modules and LESS files
+
+
+# Description (from base repo)
 
 This minimalist didactic application is written using the React-like [Riot](https://muut.com/riotjs/) UI library:
 
