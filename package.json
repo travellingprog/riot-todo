@@ -34,6 +34,6 @@
     "build": "webpack --progress --colors",
     "deploy-gh-pages": "./deploy-gh-pages.sh",
     "push": "git push --tags origin master",
-    "start": "webpack-dev-server --progress --colors --content-base build"
+    "start": "webpack-dev-server --progress --colors --content-base build --hot"
   }
 }

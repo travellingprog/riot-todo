@@ -2,7 +2,9 @@ var webpack = require('webpack');
 
 module.exports = {
   cache: true,
-  entry: './src/index.js',
+  entry: {
+    app: ['webpack/hot/dev-server', './src/index.js']
+  },
   output: {
     path: __dirname + '/build/',
     filename: 'bundle.js'
